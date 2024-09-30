@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #DDDDDD;
+}
+
+thead th {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.libertadores {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+}
+
+.pre-libertadores {
+    background-color: #1398BE;
+    color: white;
+    font-weight: bold;
+}
+
+.sul-americana {
+    background-color: #DE9800;
+    color: white;
+    font-weight: bold;
+}
+
+.rebaixado {
+    background-color: #C91B04;
+    color: white;
+    font-weight: bold;
+}
+
+tbody td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 10px;
+}
+
+tbody td:nth-child(2) {
+    text-align: left;
+    font-weight: bold;
+}
+
+tbody td:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody td:last-child {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody td:not(:first-child):not(:last-child) {
+    font-size: 14px;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+tbody tr:nth-child(4), tbody tr:nth-child(16) {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.legenda {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.legenda-cor {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+.legenda-sigla {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.legenda-significado {
+    font-style: italic;
+    color: #555;
+}
+
+.legenda-cor.libertadores {
+    background-color: #003366; 
+}
+
+.legenda-cor.pre-libertadores {
+    background-color: #1398BE; 
+}
+
+.legenda-cor.sul-americana {
+    background-color: #DE9800; 
+}
+
+.legenda-cor.rebaixado {
+    background-color: #C91B04; 
+}
